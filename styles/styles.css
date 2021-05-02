@@ -1,0 +1,164 @@
+/* body tags */
+
+body{
+height: 100px;
+width: 100%;
+margin: 0;
+}
+
+img{
+z-index: -1;
+height: 900px;
+width: 100%;
+margin: 0;
+
+position: relative;
+bottom: 100px;
+filter: blur(6px);
+-webkit-filter: blur(6px);
+}
+
+p{
+  color: white;
+  font-size: 15px;
+  font-family: 'Caveat', cursive;
+  padding-bottom: 5px;
+}
+
+h1{
+  color: black ;
+font-family: 'Girassol', cursive;
+}
+
+h2{
+  color: inherit;
+  font-family: 'Righteous', cursive;
+  padding-bottom: 10px;
+}
+
+nav{
+
+  font-family: 'Caveat', cursive;
+}
+
+center{
+height: 0;
+}
+
+
+
+    /* class tags */
+
+
+.nav-brand{
+  font-size: 30px;
+  color: white;
+}
+
+
+.navbar-nav{
+align-items:  center ;
+
+}
+
+
+.nav-item{
+text-align: center;
+
+}
+
+.container{
+position: relative;
+bottom: 480px;
+}
+
+
+
+.intro{
+position: relative;
+bottom: 225px;
+}
+
+.inp{
+position: relative;
+bottom: 110px;
+}
+
+
+
+.socialMediaSection{
+position: relative;
+bottom: 60px;
+}
+
+
+
+.final{
+
+width: 100%;
+height: 160px;
+position: relative;
+bottom: 60px;
+background-color: rgb(0, 0, 0); /* Fallback color */
+ background-color: rgba(0, 0, 0, 0.2); /* Black w/opacity/see-through */
+
+}
+
+
+.secondary{
+height: 100%;
+width: 100%;
+z-index: 2;
+position: relative;
+bottom: 524px;
+
+}
+
+
+.background{
+height: 700px;
+
+}
+
+.h{
+
+  width: 100%;
+  height: 100%;
+ background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.2); /* Black w/opacity/see-through */
+}
+
+.collapse{
+  align-items: right;
+}
+
+                         /* id tags  */
+
+
+
+#inpinp{
+color: black;
+background: rgba(255,255,255,0.4);
+width: 250px;
+height: 40px;
+}
+
+#inpdiv{
+padding-bottom: 5px;
+position: relative;
+bottom: 8px;
+}
+
+#submit{
+width: 105px;
+position: relative;
+top: 30px;
+}
+
+
+
+#socialMedia{
+margin-left: 10px;
+border-radius: 50px;
+margin-top: 10px;
+}
